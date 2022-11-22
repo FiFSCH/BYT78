@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HvAR996tTXygEpGiJNnY1COclo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.PointTest.testSub">
+    <configuration name="LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.LineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.PointTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointTest.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.PointTest" />
+      <option name="METHOD_NAME" value="testSub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadrilateralTest.testRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.QuadrilateralTest" />
+      <option name="METHOD_NAME" value="testRectangle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadrilateralTest.testSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.QuadrilateralTest" />
+      <option name="METHOD_NAME" value="testSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PointTest.testSub" />
+        <item itemvalue="JUnit.PointTest.testAdd" />
+        <item itemvalue="JUnit.QuadrilateralTest.testSquare" />
+        <item itemvalue="JUnit.QuadrilateralTest.testRectangle" />
+        <item itemvalue="JUnit.LineTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="" />
+      <created>1669155174348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669155174348</updated>
+      <workItem from="1669155175462" duration="4434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
