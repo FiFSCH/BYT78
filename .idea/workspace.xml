@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="finished &quot;money - universalValue&quot;">
+    <list default="true" id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="finished part A + added some comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/a_Introductory/PointTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/a_Introductory/PointTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/b_Money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Money/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/a_Introductory/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/a_Introductory/PointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/b_Money/CurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/b_Money/CurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/b_Money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/b_Money/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,89 +38,92 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Vector2DTest">
-    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CurrencyTest">
+    <configuration name="CurrencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="PATTERN" value="b_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.FibonacciTest" />
+      <option name="PACKAGE_NAME" value="b_Money" />
+      <option name="MAIN_CLASS_NAME" value="b_Money.CurrencyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="PATTERN" value="b_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.LineTest" />
+      <option name="PACKAGE_NAME" value="b_Money" />
+      <option name="MAIN_CLASS_NAME" value="b_Money.MoneyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testCompareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="PATTERN" value="b_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.PointTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="b_Money" />
+      <option name="MAIN_CLASS_NAME" value="b_Money.MoneyTest" />
+      <option name="METHOD_NAME" value="testCompareTo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuadrilateralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="PATTERN" value="b_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.QuadrilateralTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="b_Money" />
+      <option name="MAIN_CLASS_NAME" value="b_Money.MoneyTest" />
+      <option name="METHOD_NAME" value="testIsZero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testNegate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="PATTERN" value="b_Money.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.Vector2DTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="b_Money" />
+      <option name="MAIN_CLASS_NAME" value="b_Money.MoneyTest" />
+      <option name="METHOD_NAME" value="testNegate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Vector2DTest" />
-        <item itemvalue="JUnit.QuadrilateralTest" />
-        <item itemvalue="JUnit.PointTest" />
-        <item itemvalue="JUnit.LineTest" />
-        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="JUnit.CurrencyTest" />
+        <item itemvalue="JUnit.MoneyTest" />
+        <item itemvalue="JUnit.MoneyTest.testCompareTo" />
+        <item itemvalue="JUnit.MoneyTest.testNegate" />
+        <item itemvalue="JUnit.MoneyTest.testIsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,7 @@
       <updated>1669155174348</updated>
       <workItem from="1669155175462" duration="4880000" />
       <workItem from="1669276405107" duration="1514000" />
-      <workItem from="1669456619960" duration="658000" />
+      <workItem from="1669456619960" duration="9057000" />
     </task>
     <task id="LOCAL-00001" summary="finished &quot;money - universalValue&quot;">
       <created>1669159710906</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669159710906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished part A + added some comments">
+      <created>1669457453775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669457453775</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished &quot;money - universalValue&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished &quot;money - universalValue&quot;" />
+    <MESSAGE value="finished part A + added some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished part A + added some comments" />
   </component>
 </project>
