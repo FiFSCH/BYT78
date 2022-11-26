@@ -16,26 +16,26 @@ public class PointTest {
         p3 = new Point(-10, 3);
     }
 
-    @Test // brak @test
+    @Test // added @test annotations
     public void testAdd() {
         Point res1 = p1.add(p2);
         Point res2 = p1.add(p3);
 
-        assertEquals(4, (int) res1.x); //niejednoznaczny assertEquals call (both long and object) więc casting
+        assertEquals(4, (int) res1.x); //added casting to avoid ambiguous method call
         assertEquals(-21, (int) res1.y);
         assertEquals(-3, (int) res2.x);
         assertEquals(12, (int) res2.y);
     }
 
-//    @Test
-//    public void testSub() { // czy tutaj mam zmienic wartosci w expected? oczekuje 4 ale gdy odejmujemy p1.x - (-3) to dodajemy i wychodzi 10 wiec git
-//        Point res1 = p1.sub(p2);
-//        Point res2 = p1.sub(p3);
-//
-//        assertEquals(4, (int) res1.x);
-//        assertEquals(-21, (int) res1.y);
-//        assertEquals(-3, (int) res2.x);
-//        assertEquals(12, (int) res2.x);
-//    }
+    @Test
+    public void testSub() {
+        Point res1 = p1.sub(p2);
+        Point res2 = p1.sub(p3);
+
+        assertEquals(10, (int) res1.x); //changed expected values as in my opinion there were wrong
+        assertEquals(39, (int) res1.y);
+        assertEquals(17, (int) res2.x);
+        assertEquals(6, (int) res2.y);
+    }
 
 }

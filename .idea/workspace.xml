@@ -4,32 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="" />
+    <list default="true" id="f94b9a28-5e4c-4d84-bec1-2238296cfc1b" name="Changes" comment="finished &quot;money - universalValue&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/a_Introductory/PointTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/a_Introductory/PointTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_Money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Money/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/a_Introductory/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/a_Introductory/PointTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HvAR996tTXygEpGiJNnY1COclo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.PointTest.testSub">
+}</component>
+  <component name="RunManager" selected="JUnit.Vector2DTest">
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JtestLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_Introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_Introductory" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.FibonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
@@ -45,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
@@ -55,29 +79,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="a_Introductory" />
       <option name="MAIN_CLASS_NAME" value="a_Introductory.PointTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JtestLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a_Introductory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.PointTest" />
-      <option name="METHOD_NAME" value="testSub" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuadrilateralTest.testRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuadrilateralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +94,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="a_Introductory" />
       <option name="MAIN_CLASS_NAME" value="a_Introductory.QuadrilateralTest" />
-      <option name="METHOD_NAME" value="testRectangle" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuadrilateralTest.testSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JtestLab" />
       <extension name="coverage">
         <pattern>
@@ -102,20 +108,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="a_Introductory" />
-      <option name="MAIN_CLASS_NAME" value="a_Introductory.QuadrilateralTest" />
-      <option name="METHOD_NAME" value="testSquare" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="a_Introductory.Vector2DTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PointTest.testSub" />
-        <item itemvalue="JUnit.PointTest.testAdd" />
-        <item itemvalue="JUnit.QuadrilateralTest.testSquare" />
-        <item itemvalue="JUnit.QuadrilateralTest.testRectangle" />
+        <item itemvalue="JUnit.Vector2DTest" />
+        <item itemvalue="JUnit.QuadrilateralTest" />
+        <item itemvalue="JUnit.PointTest" />
         <item itemvalue="JUnit.LineTest" />
+        <item itemvalue="JUnit.FibonacciTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,11 +132,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669155174348</updated>
-      <workItem from="1669155175462" duration="4434000" />
+      <workItem from="1669155175462" duration="4880000" />
+      <workItem from="1669276405107" duration="1514000" />
+      <workItem from="1669456619960" duration="658000" />
     </task>
+    <task id="LOCAL-00001" summary="finished &quot;money - universalValue&quot;">
+      <created>1669159710906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669159710906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished &quot;money - universalValue&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished &quot;money - universalValue&quot;" />
   </component>
 </project>
