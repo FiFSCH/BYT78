@@ -68,7 +68,7 @@ public class Money implements Comparable {
 	 * (Remember to convert the other Money before adding the amounts)
 	 */
 	public Money add(Money other) {
-        return new Money(amount + other.getCurrency().valueInThisCurrency(other.getAmount(),currency),currency);
+        return new Money((int) (amount + other.universalValue()/currency.getRate()),currency);
 	}
 
 	/**
@@ -78,7 +78,7 @@ public class Money implements Comparable {
 	 * (Again, remember converting the value of the other Money to this Currency)
 	 */
 	public Money sub(Money other) {
-        return new Money(amount - other.getCurrency().valueInThisCurrency(other.getAmount(),currency),currency);
+        return new Money((int) (amount - other.universalValue()/currency.getRate()),currency);
 	}
 
 	/**
